@@ -3,10 +3,10 @@
 - Library: [Golang Migrate](https://github.com/golang-migrate/migrate)
 - [Instalation](https://github.com/golang-migrate/migrate/tree/master/cmd/migrate): 
     ```bash
-    curl -L https://github.com/golang-migrate/migrate/releases/download/14.15.2/migrate.linux-amd64.tar.gz | tar xvz
+    curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz | tar xvz
     ```
     ```bash
-    mv migrate.linux-amd64 $GOPATH/bin/migrate
+    mv migrate $GOPATH/bin/migrate
     ```
 ## Create Migration File
 ```bash
